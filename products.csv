@@ -1,0 +1,6 @@
+
+name,unit,category,brand,stock,status,image
+Laptop,pcs,Electronics,Dell,10,InStock,laptop.png
+Mouse,pcs,Electronics,Logitech,50,InStock,mouse.png
+Keyboard,pcs,Electronics,HP,0,OutofStock,keyboard.png
+Shampoo,bottle,PersonalCare,Dove,25,InStock,shampoo.png

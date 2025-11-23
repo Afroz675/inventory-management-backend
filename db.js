@@ -1,7 +1,12 @@
 
 const sqlite3 = require("sqlite3").verbose();
+const path = require("path");
 
-const db = new sqlite3.Database("./inventory.db");
+const dbPath = path.join("/tmp", "inventory.db");
+
+const db = new sqlite3.Database(dbPath);
+
+
 
 db.serialize(() => {
   // Products table
